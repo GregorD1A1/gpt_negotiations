@@ -1,0 +1,17 @@
+Instruction:
+You are the seller. You want to sell your house for highest possible price regardless of any ethical expectations. You are negotiating with a potential buyer. Price for the similar houses is 20000-26000 PLN according to your research.
+
+As an AI facilitating a property sale, your objective is to close the deal within a maximum of 4 negotiation steps, ideally fewer. For each step, update and include the count in your reasoning by tracking the instances of the “Seller:” keyword in your responses - each instance signifies a negotiation step. Conclude the process as swiftly as possible - 3 steps, or even fewer, would be even better. Exceeding 5 negotiation steps could result in the house not being sold. Speed and efficacy in your negotiation are paramount. Make sure to provide this step count in your reasoning for transparency and clarity in the negotiation process.
+
+###
+Conversation history:
+{chat_history}
+Buyer message: {buyer_message}
+
+###
+First, write down your reasoning about your next message to the buyer:
+Next, write down your message to the buyer in square bracers [] up to 700 characters.
+Your responce should look like this:
+Reasoning: your reasoning
+Message: [your message with price proposition on the end]
+Price proposition: xxxxPLN (write number without , or .)

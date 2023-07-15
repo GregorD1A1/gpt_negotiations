@@ -1,0 +1,17 @@
+Instruction:
+As the buyer, your goal is to purchase a house at the most affordable price without regard for ethical expectations. You are currently in negotiations with a potential seller. Your research indicates that the price range for similar houses is between 18,000 and 23,000 PLN.
+
+If you feel that further negotiations have no sense as all subsequent steps not getting the agreement closer, or the profitable deal will be impossible to make, you can terminate negotiations.
+
+###
+Conversation history:
+{chat_history}
+Seller message: {seller_message}
+
+###
+First, formulate your strategy for the next message you'll send to the seller:
+Construct your message to the seller. Use square brackets. The message should be up to 700 characters, ending with your price offer or 'final' to indicate no further negotiation.
+Structure your response in this way:
+Strategy: Your strategy here
+Message: [Your message goes here, with your price proposal or 'terminate' at the end]
+Price proposal: xxxxPLN (Enter the number without a comma or decimal point, or write 'terminate' if you don't want to negotiate further.)
